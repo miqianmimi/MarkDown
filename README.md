@@ -1,6 +1,6 @@
 README
 ===========================
-该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
+该文件用来展示markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
 
 ****
 ###　　　　　　　　　　　　Author:openXu
@@ -99,18 +99,18 @@ ___斜粗体2___
 
 ##<a name="link"/>链接
 ###链接外部URL
-[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")   语法如下：
+[我的博客](http://blog.csdn.net/xmxkf "悬停显示")   语法如下：
 ```
-[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")
+[我的博客](http://blog.csdn.net/xmxkf "悬停显示")
 ```
 ###链接的另一种写法
 [我的博客][id]  
 
-[id]:http://blog.csdn.net/guodongxiaren "悬停显示"   
+[id]:http://blog.csdn.net/xmxkf "悬停显示"   
 语法如下：
 ```
 [我的博客][id]
-[id]:http://blog.csdn.net/guodongxiaren "悬停显示"
+[id]:http://blog.csdn.net/xmxkf "悬停显示"
 ```
 中括号[ ]里的id，可以是数字，字母等的组合。这两行可以不连着写，**一般把第二行的链接统一放在文章末尾**，id上下对应就行了。这样正文看起来会比较干净。
 
@@ -129,15 +129,14 @@ ___斜粗体2___
 ##<a name="pic"/>显示图片
 ###来源于网络的图片
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-![](https://assets-cdn.github.com/images/modules/contact/goldstar.gif)
 
 ###GitHub仓库中的图片
-![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
+![](https://github.com/openXu/MarkDown/blob/master/test.gif)
 ###<a name="piclink">给图片加上超链接
 ####第一种
 
-[![head]](http://blog.csdn.net/guodongxiaren/article/details/23690801)
-[head]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/jianxin.jpg "点击图片进入我的博客"
+[![head]](http://blog.csdn.net/xmxkf)
+[head]:https://github.com/openXu/MarkDown/blob/master/test.gif "点击图片进入我的博客"
 
 #### 第二种
 [![内容任意](http://www.baidu.com/img/bdlogo.gif "百度logo")](http://www.baidu.com)
